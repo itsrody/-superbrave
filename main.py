@@ -3,9 +3,9 @@ from pathlib import Path
 from typing import List
 
 from super_brave.config import load_config
-from super_brave.fetcher import fetch_all_rules
-from super_brave.analyzer import categorize_brave_rules
-from super_brave.utils import write_super_brave_file
+from fetcher import fetch_all_rules
+from analyzer import categorize_brave_rules
+from utils import write_super_brave_file
 
 def main() -> None:
     # Load configuration
