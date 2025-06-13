@@ -1,0 +1,7 @@
+rule_urls:
+  - "https://easylist.to/easylist/easylist.txt"          # Adblock Plus main list
+  - "https://easylist.to/easylist/easyprivacy.txt"      # EasyPrivacy (tracking)
+  - "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/main/Clash/AdGuardSDNSFilter.txt"  # AdGuard DNS filters
+  - "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt"  # uBlock Origin base filters
+output_file: "SuperBrave.txt"                           # Output filename
+concurrency: 10                                            # Max concurrent fetches
