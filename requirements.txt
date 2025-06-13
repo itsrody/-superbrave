@@ -1,0 +1,3 @@
+aiohttp>=3.8.0          # Async HTTP client for parallel fetching
+PyYAML>=6.0             # YAML config parsing
+pytest>=7.0.0           # Unit testing (optional)
