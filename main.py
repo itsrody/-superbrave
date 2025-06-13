@@ -2,7 +2,7 @@ import asyncio
 from pathlib import Path
 from typing import List
 
-from super_brave.config import load_config
+from config import load_config
 from fetcher import fetch_all_rules
 from analyzer import categorize_brave_rules
 from utils import write_super_brave_file
